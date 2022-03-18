@@ -25,6 +25,6 @@ object AppModule {
     @Singleton
     fun provideTodoRepository(database:TodoDatabase):TodoRepository{
         return TodoRepositoryImpl(database.dao)
-    }
+     }
 
 }
